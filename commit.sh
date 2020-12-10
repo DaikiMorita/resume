@@ -5,6 +5,7 @@ git commit -m "修正"
 git push origin master
 
 PF=$(cat .credentials | grep ^# -2 | tail -n 1)
+echo $PF
 expect -c "
 set timeout 5
 spawn git push origin master
