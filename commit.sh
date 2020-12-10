@@ -24,6 +24,8 @@ figlet -f standard $DATE
 echo ""
 figlet -f standard "Updated Files"
 echo ""
+echo ""
+echo ""
 git diff --name-only
 echo "-----------"
 echo ""
