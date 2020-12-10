@@ -1,7 +1,7 @@
 #!/bin/bash
 
 conda activate resume
-pyhton3 replace_date.py
+python3 replace_date.py
 
 git st
 echo "----------------------------------------"
