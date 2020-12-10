@@ -10,4 +10,6 @@ set timeout 5
 spawn git push origin master
 expect \"Enter passphrase for key '/Users/daikimorita/.ssh/id_rsa':\"
 send \"${PF}\n\"
+expect \"master -> master\"
+exit 0
 "
