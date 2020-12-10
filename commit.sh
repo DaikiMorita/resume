@@ -2,7 +2,6 @@
 
 git add .
 git commit -m "修正"
-
 PF=$(cat .credentials | grep PF -2 | tail -n 1)
 echo $PF
 expect -c "
@@ -13,3 +12,4 @@ send \"${PF}\n\"
 expect \"master -> master\"
 exit 0
 "
+echo https://daikimorita.github.io/resume/
