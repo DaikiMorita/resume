@@ -16,9 +16,12 @@ unset __conda_setup
 # <<< conda init <<<
 
 conda activate resume
+
+# 更新日を書き換え
 python3 replace_date.py
 
-git st
+echo "----------------------------------------"
+git diff --name-only
 echo "----------------------------------------"
 echo ""
 
