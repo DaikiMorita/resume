@@ -45,6 +45,7 @@ exit 0
 echo ""
 figlet -f standard "Portfolio Upgraded"
 echo ""
+echo ""
 echo "Go to Github Pages >> https://daikimorita.github.io/resume"
 echo ""
 
