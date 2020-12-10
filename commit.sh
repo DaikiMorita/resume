@@ -37,5 +37,3 @@ echo "☆～｡;:ﾟ*～｡;:ﾟ*～｡;:ﾟ*～｡;:ﾟ*～☆☆～｡;:ﾟ*�
 echo ""
 echo "Go to Github Pages >> https://daikimorita.github.io/resume"
 echo ""
-
-conda init bash
