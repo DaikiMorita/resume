@@ -18,5 +18,4 @@ echo " | |_) | / _ \ | '__|| __|| |_  / _ \ | || | / _ \  | | | || '_ \  / _\` |
 echo " |  __/ | (_) || |   | |_ |  _|| (_) || || || (_) | | |_| || |_) || (_| || |   | (_| || (_| ||  __/| (_| | "
 echo " |_|     \___/ |_|    \__||_|   \___/ |_||_| \___/   \___/ | .__/  \__, ||_|    \__,_| \__,_| \___| \__,_| "
 echo "                                                           |_|     |___/ "
-echo ""
-echo "https://daikimorita.github.io/resume/"
+echo "Go to Github Pages >> https://daikimorita.github.io/resume"
