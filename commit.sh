@@ -2,8 +2,16 @@
 
 git st
 echo "----------------------------------------"
+echo ""
+
 git add .
+echo "----------------------------------------"
+echo ""
+
 git commit -m "修正"
+echo "----------------------------------------"
+echo ""
+
 PF=$(cat .credentials | grep PF -2 | tail -n 1)
 expect -c "
 set timeout 5
@@ -22,4 +30,3 @@ echo " |_|     \___/ |_|    \__||_|   \___/ |_||_| \___/   \___/ | .__/  \__, ||
 echo "                                                           |_|     |___/ "
 echo ""
 echo "Go to Github Pages >> https://daikimorita.github.io/resume"
-
