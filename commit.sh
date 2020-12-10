@@ -48,5 +48,6 @@ echo ""
 echo ""
 echo "Go to Github Pages >> https://daikimorita.github.io/resume"
 echo ""
+echo ""
 
 conda deactivate
