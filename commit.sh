@@ -3,7 +3,7 @@
 git add .
 git commit -m "修正"
 
-PF=$(cat .credentials | grep ^# -2 | tail -n 1)
+PF=$(cat .credentials | grep ^#PF -2 | tail -n 1)
 echo $PF
 expect -c "
 set timeout 5
