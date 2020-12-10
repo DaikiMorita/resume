@@ -19,10 +19,8 @@ conda activate resume
 
 # 更新日を書き換え
 DATE=$(python3 replace_date.py)
-
 figlet -f standard $DATE
 
-echo "----------------------------------------"
 git diff --name-only
 echo "----------------------------------------"
 echo ""
