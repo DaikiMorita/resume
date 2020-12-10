@@ -22,7 +22,7 @@ DATE=$(python3 replace_date.py)
 figlet -f standard $DATE
 
 echo ""
-echo "Updated Files >>"
+figlet -f standard "Updated Files"
 echo ""
 git diff --name-only
 echo "-----------"
