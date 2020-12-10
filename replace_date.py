@@ -18,3 +18,5 @@ soup.find('p', id="update_date").replace_with(new_tag)
 
 with open(target_html, mode='w') as f:
     f.write((soup.prettify(formatter='html5')))
+
+print(f'{year}/{month}/{day}')

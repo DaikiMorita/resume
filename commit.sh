@@ -1,6 +1,8 @@
 #!/bin/bash
 
 conda activate resume
+pyhton3 replace_date.py
+
 git st
 echo "----------------------------------------"
 echo ""
@@ -36,4 +38,4 @@ echo ""
 echo "Go to Github Pages >> https://daikimorita.github.io/resume"
 echo ""
 
-conda deactivate
+conda init bash
