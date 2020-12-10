@@ -27,7 +27,6 @@ echo ""
 echo ""
 echo ""
 git diff --name-only
-echo "-----------"
 echo ""
 
 git add .
