@@ -29,7 +29,7 @@ echo "----------------"
 echo ""
 
 git add .
-git commit -m "修正"
+git commit -m "修正" > /dev/null
 echo "----------------------------------------"
 echo ""
 
