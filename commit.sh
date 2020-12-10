@@ -25,7 +25,7 @@ echo ""
 echo "Updated Files >>"
 echo ""
 git diff --name-only
-echo "----------------------------------------"
+echo "----------------"
 echo ""
 
 git add .
