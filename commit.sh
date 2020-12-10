@@ -25,13 +25,11 @@ echo ""
 echo "Updated Files >>"
 echo ""
 git diff --name-only
-echo "----------------"
+echo "-----------"
 echo ""
 
 git add .
-git commit -m "修正" > /dev/null
-echo "----------------------------------------"
-echo ""
+git commit -m "修正" >/dev/null
 
 PF=$(cat .credentials | grep PF -2 | tail -n 1)
 expect -c "
