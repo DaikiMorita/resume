@@ -43,7 +43,7 @@ exit 0
 " >/dev/null
 
 echo ""
-figlet -f standard "Portofolio Upgraded"
+figlet -f standard "Portfolio Upgraded"
 echo ""
 echo "Go to Github Pages >> https://daikimorita.github.io/resume"
 echo ""
