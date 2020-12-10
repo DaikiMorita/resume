@@ -1,5 +1,6 @@
 #!/bin/bash
 
+conda activate resume
 git st
 echo "----------------------------------------"
 echo ""
@@ -34,3 +35,5 @@ echo "☆～｡;:ﾟ*～｡;:ﾟ*～｡;:ﾟ*～｡;:ﾟ*～☆☆～｡;:ﾟ*�
 echo ""
 echo "Go to Github Pages >> https://daikimorita.github.io/resume"
 echo ""
+
+conda deactivate
