@@ -30,3 +30,4 @@ echo " |_|     \___/ |_|    \__||_|   \___/ |_||_| \___/   \___/ | .__/  \__, ||
 echo "                                                           |_|     |___/ "
 echo ""
 echo "Go to Github Pages >> https://daikimorita.github.io/resume"
+echo ""
