@@ -1,10 +1,203 @@
+
+html body {
+    overflow-x: hidden;
+}
+
 h1 {
-  padding: 1rem 2rem;
-  border-top: 1px solid #000;
-  border-bottom: 1px solid #000;
+    font-size: 3em;
+    font-family: 'Dosis', "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", cursive;
 }
 
 h2 {
-  padding: 1rem 2rem;
-  border-left: 2px solid #000;
+    margin: 2em 0 2em 0;
+    padding: 1rem 2rem;
+    text-align: left;
+    border-left: 1px solid #dcdcdc;
 }
+
+/***********header**************/
+
+header {
+    margin: 4em 5em 0 5em;
+}
+
+header h1 {
+    margin-bottom: 2em;
+}
+
+header p {
+    text-align: right;
+}
+
+ul {
+    margin: 0;
+    padding: 1em 0;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    background: #696969;
+}
+
+li {
+    text-align: right;
+    padding: 0 2.5em;
+}
+
+li a {
+    color: #fff;
+}
+
+li a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/***********main**************/
+
+.main h1 {
+    text-align: center;
+    padding: 2.5em 0;
+    margin: 0;
+}
+
+.Profile-wrapper {
+    margin: 0 6em;
+    display: flex;
+}
+
+.Profile-wrapper img {
+    margin-right: 5em;
+    width: 10rem;
+}
+
+.Profile-row-1 {
+    width: 30rem;
+}
+
+.Profile-row-2 {
+    margin-left: 8em;
+}
+
+.inner {
+    width: 1040px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.table {
+    align: "center";
+    font-size: 0.9em;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Achievements a {
+    color: #000;
+    border-bottom: solid 1px #000;
+}
+
+#Achievements a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+#Yahoo, #SkillupAI, #Moneyforward, #Summary, #Achievements, #AwardQualification, #Contact {
+    margin-left: 2em;
+}
+
+#Contact {
+    padding-bottom: 4em;
+    text-align: center;
+}
+
+#Contact p {
+    margin-bottom: 0.5em;
+    color: #000;
+}
+
+#Contact a {
+    margin: 0;
+    color: #000;
+    border-bottom: solid 1px #000;
+}
+
+#Contact a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+
+/***********footer**************/
+
+.footer-menu {
+    margin: 2em 0;
+}
+
+.footer-menu ul {
+    margin: 0;
+    padding: 1em 0;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    background: #fff;
+}
+
+.footer-menu li a {
+    color: #000;
+}
+
+.footer-menu li a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+
+/***********1040px**************/
+
+@media screen and (max-width: 1040px) {
+    li {
+        padding: 0 1.3em;
+    }
+
+    .Profile {
+        margin: 0 3em 0 3em;
+    }
+
+    .Profile-row-1 {
+        width: 50rem;
+    }
+
+    .Profile-row-2 {
+        margin-left: 3em;
+    }
+
+    .Profile img {
+        margin-right: 3em;
+        width: 10rem
+    }
+
+    .Summary {
+        margin-left: 5em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    .inner {
+        width: 750px;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .table {
+        font-size: 0.8em;
+    }
+}
+
+
+
+
+
