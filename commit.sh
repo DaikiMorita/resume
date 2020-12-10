@@ -1,5 +1,6 @@
 #!/bin/bash
 
+conda init bash
 conda activate resume
 python3 replace_date.py
 
