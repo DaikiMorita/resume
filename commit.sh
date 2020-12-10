@@ -23,6 +23,7 @@ figlet -f standard $DATE
 
 echo ""
 echo "Updated Files >>"
+echo ""
 git diff --name-only
 echo "----------------------------------------"
 echo ""
