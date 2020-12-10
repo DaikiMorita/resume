@@ -22,6 +22,8 @@ DATE=$(python3 replace_date.py)
 figlet -f standard $DATE
 
 git diff --name-only
+echo ""
+echo "Updated Files >>"
 echo "----------------------------------------"
 echo ""
 
