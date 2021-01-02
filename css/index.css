@@ -6,6 +6,7 @@ html body {
 h1 {
     font-size: 3em;
     font-family: 'Dosis', "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", cursive;
+    text-decoration: underline;
 }
 
 h2 {
@@ -54,6 +55,11 @@ li a:hover {
 
 
 /***********main**************/
+
+#Sitename {
+    font-size: xx-large;
+    text-align: left;
+}
 
 .main h1 {
     text-align: center;
