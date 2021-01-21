@@ -1,6 +1,5 @@
 #!/bin/bash
 
-conda activate resume
 echo ""
 # 更新日を書き換え
 DATE=$(/Users/daikimorita/opt/anaconda3/bin/python pyscript/replace_date.py)
