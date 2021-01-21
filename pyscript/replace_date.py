@@ -22,7 +22,7 @@ soup.find('p', id="update_date").replace_with(new_tag)
 print(f'{year}/{month}/{day}')
 
 new_tag = soup.new_tag('p', attrs={'id': 'birthday'})
-age = relativedelta(today, date(1993, 8, 25)).years + 1
+age = relativedelta(today, date(1993, 8, 25)).years
 new_tag.string = f'年齢：{age}歳'
 soup.find('p', id="birthday").replace_with(new_tag)
 
