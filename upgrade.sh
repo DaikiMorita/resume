@@ -3,10 +3,10 @@
 echo ""
 # 更新日を書き換え
 DATE=$(/Users/daikimorita/opt/anaconda3/bin/python pyscript/replace_date.py)
-figlet -f standard $DATE
+# figlet -f standard $DATE
 
 echo ""
-figlet -f standard "Updated  Files"
+# figlet -f standard "Updated  Files"
 echo ""
 echo ""
 echo ""
@@ -27,7 +27,7 @@ exit 0
 " >/dev/null
 
 echo ""
-figlet -f standard "Portfolio Upgraded"
+# figlet -f standard "Portfolio Upgraded"
 echo ""
 echo ""
 echo "Go to Github Pages >> https://daikimorita.github.io/resume"
