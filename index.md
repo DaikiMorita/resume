@@ -6,6 +6,9 @@
 ### 生年月日
 1993年8月25日
 
+### 出身
+福岡県
+
 # 学歴・職歴
 
 ### 2022年5月 ~ 現在
@@ -35,13 +38,13 @@ AI-102: Designing and Implementing a Microsoft Azure AI Solution
 Google Cloud Professional Data Engineer
 
 ### 2021年2月
-AWS Certifi ed Machine Learning – Specialty
+AWS Certified Machine Learning – Specialty
 
 ### 2020年9月
 Microsoft AI-100: Designing and Implementing an Azure AI Solution
 
 ### 2020年9月
-Microsoft Certifi ed Trainer（2020-2021）
+Microsoft Certified Trainer（2020-2021）
 
 ### 2018年3月
 IEEE Computational Intelligence Society Japan Chapter Young Researcher Award
