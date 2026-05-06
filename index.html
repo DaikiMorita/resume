@@ -31,13 +31,14 @@
     @media print {
       .no-print { display: none !important; }
       body { background: white !important; }
-      main { box-shadow: none !important; max-width: none !important; padding: 0 !important; }
+      main { box-shadow: none !important; max-width: none !important; padding: 0 !important; margin: 0 !important; }
       section { break-inside: avoid; }
     }
   </style>
 </head>
 <body class="bg-slate-50 text-ink antialiased">
   <main class="max-w-3xl mx-auto bg-white shadow-sm my-0 sm:my-12 p-8 sm:p-14">
+
     <header class="border-b border-slate-200 pb-8 mb-10">
       <h1 class="text-4xl font-bold tracking-tight mb-2">森田大樹</h1>
       <p class="text-muted text-sm">Daiki Morita — 職務経歴書</p>
@@ -48,7 +49,7 @@
       <h2 class="text-xs font-semibold tracking-widest text-accent uppercase mb-5">基本情報</h2>
       <dl class="grid grid-cols-[7rem_1fr] gap-y-3 gap-x-4 text-sm">
         <dt class="text-muted">氏名</dt>
-        <dd>森田大樹</dd>
+        <dd>森田大樹（モリタ ダイキ）</dd>
         <dt class="text-muted">生年月日</dt>
         <dd>1993年8月25日</dd>
         <dt class="text-muted">出身</dt>
@@ -57,38 +58,146 @@
     </section>
 
     <section class="mb-12">
-      <h2 class="text-xs font-semibold tracking-widest text-accent uppercase mb-5">学歴・職歴</h2>
-      <ol class="space-y-5">
-        <li class="grid grid-cols-[10rem_1fr] gap-x-4 text-sm">
-          <div class="text-muted tabular-nums">2022年5月 – 現在</div>
-          <div>株式会社スキルアップNeXt — エンジニア</div>
-        </li>
-        <li class="grid grid-cols-[10rem_1fr] gap-x-4 text-sm">
-          <div class="text-muted tabular-nums">2019年2月 – 現在</div>
-          <div>開業（屋号 Emerens）</div>
-        </li>
-        <li class="grid grid-cols-[10rem_1fr] gap-x-4 text-sm">
-          <div class="text-muted tabular-nums">2019年11月 – 2022年3月</div>
-          <div>株式会社マネーフォワード — Money Forward Lab 特別研究員</div>
-        </li>
-        <li class="grid grid-cols-[10rem_1fr] gap-x-4 text-sm">
-          <div class="text-muted tabular-nums">2018年4月 – 2019年10月</div>
-          <div>ヤフー株式会社 — エンジニア</div>
-        </li>
+      <h2 class="text-xs font-semibold tracking-widest text-accent uppercase mb-5">職務要約</h2>
+      <div class="space-y-5 text-sm leading-relaxed">
+        <div>
+          <h3 class="font-semibold mb-2">2019年11月 – 2022年3月</h3>
+          <p>フリーランスとして Web アプリケーション開発、データ分析業務（to C 向けアプリケーションのログデータのデータサイエンス業務）、AI/DX 系講座の教材開発および講師業務を実施。</p>
+        </div>
+        <div>
+          <h3 class="font-semibold mb-2">2022年5月 – 現在</h3>
+          <p class="mb-3">スキルアップNeXt のチームリーダーに着任。機械学習／統計／生成AI／Microsoft Power Platform／プランニングといった AI/DX 領域の e ラーニング開発チームを管理。</p>
+          <p class="mb-3">ピープルマネジメントを行いつつ、自身も DX/AI 領域の講座・セミナー講師として登壇。週 2–3 回ペースで登壇する場合もあり、登壇回数は 100 回を超える。</p>
+          <p class="mb-3">生成 AI を用いた Web サービスの開発リーダーも兼任。業務委託パートナーを最大 5 名束ね、無事リリースまで達成。</p>
+          <p class="mb-3">並行して生成 AI を用いた業務改善にも取り組み、e ラーニング自動作成システム（台本・音声自動生成、スライド画像と音声を連結して動画を自動作成）を業務の傍らに開発。現在の e ラーニング開発の標準となっている。</p>
+          <p>e ラーニング開発の標準化と講師・セミナー業務の後任育成を受け、2025年11月より AI/DX 系コンサルティングおよびシステム開発チームのマネージャーに着任（2026年3月時点でチームマネージャー最高グレード）。生成AI／AI エージェント／データ分析／Microsoft Copilot Studio をテーマにした開発案件を推進中。</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-xs font-semibold tracking-widest text-accent uppercase mb-5">スキル</h2>
+      <dl class="space-y-4 text-sm">
+        <div class="grid grid-cols-[8rem_1fr] gap-x-4">
+          <dt class="text-muted">マネジメント</dt>
+          <dd>ピープルマネジメント、AI/DX プロジェクト推進、要件定義</dd>
+        </div>
+        <div class="grid grid-cols-[8rem_1fr] gap-x-4">
+          <dt class="text-muted">AI・データ</dt>
+          <dd>機械学習、統計、生成 AI 活用、データ分析・可視化</dd>
+        </div>
+        <div class="grid grid-cols-[8rem_1fr] gap-x-4">
+          <dt class="text-muted">開発</dt>
+          <dd>Python、サーバーサイド開発、API 設計、Microsoft Power Platform / Copilot Studio</dd>
+        </div>
+      </dl>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-xs font-semibold tracking-widest text-accent uppercase mb-5">職務経歴</h2>
+
+      <article class="mb-8">
+        <div class="flex justify-between items-baseline mb-1 flex-wrap gap-x-4">
+          <h3 class="font-semibold text-base">株式会社スキルアップNeXt</h3>
+          <span class="text-muted text-xs tabular-nums">2022年5月 – 現在</span>
+        </div>
+        <p class="text-sm text-muted mb-3">デジタルテクノロジー部門 開発ユニット 伴走支援・開発支援グループ マネージャー（2025年11月〜継続中）</p>
+        <p class="text-sm mb-4">システムコンサルタントとして、Microsoft Power Platform や生成 AI の活用推進を担当。</p>
+
+        <div class="text-sm space-y-3">
+          <div>
+            <h4 class="font-medium text-xs text-muted uppercase tracking-wider mb-2">業務内容</h4>
+            <ul class="list-disc list-inside space-y-1 marker:text-slate-300">
+              <li>Microsoft Power Platform: 業務プロセスの自動化</li>
+              <li>Copilot Studio: 開発支援ツールの導入</li>
+              <li>コンサルタント: クライアントの要件分析</li>
+              <li>システム構築: アプリケーションの設計・実装</li>
+              <li>ピープルマネジメント: チームのパフォーマンス向上</li>
+              <li>生成 AI 活用推進: 新技術の導入促進</li>
+              <li>ノーコード・プロコード: 開発手法の選定支援</li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="font-medium text-xs text-muted uppercase tracking-wider mb-2">活かした経験・スキル</h4>
+            <ul class="list-disc list-inside space-y-1 marker:text-slate-300">
+              <li>ツール: Microsoft Power Platform、Copilot Studio</li>
+              <li>技術: 生成 AI、ノーコード・プロコード、Python、サーバーサイド</li>
+              <li>スキル: システム構築、ピープルマネジメント</li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="font-medium text-xs text-muted uppercase tracking-wider mb-2">成果</h4>
+            <ul class="list-disc list-inside space-y-1 marker:text-slate-300">
+              <li>Microsoft Power Platform を活用した業務効率化</li>
+              <li>生成 AI を導入し、業務改善を推進</li>
+            </ul>
+          </div>
+        </div>
+      </article>
+
+      <article class="mb-8">
+        <div class="flex justify-between items-baseline mb-1 flex-wrap gap-x-4">
+          <h3 class="font-semibold text-base">株式会社マネーフォワード</h3>
+          <span class="text-muted text-xs tabular-nums">2019年11月 – 2022年3月</span>
+        </div>
+        <p class="text-sm text-muted mb-3">Money Forward Lab 特別研究員（業務委託）</p>
+        <ul class="text-sm list-disc list-inside space-y-1 marker:text-slate-300">
+          <li>アプリケーションデータを用いたデータサイエンス業務</li>
+          <li>機械学習・統計</li>
+          <li>Python・AWS</li>
+        </ul>
+      </article>
+
+      <article class="mb-2">
+        <div class="flex justify-between items-baseline mb-1 flex-wrap gap-x-4">
+          <h3 class="font-semibold text-base">LINE ヤフー株式会社</h3>
+          <span class="text-muted text-xs tabular-nums">2018年4月 – 2019年10月</span>
+        </div>
+        <p class="text-sm text-muted mb-3">メディアプラットホーム開発本部 エンジニア（2018年10月〜2019年10月）</p>
+        <ul class="text-sm list-disc list-inside space-y-1 marker:text-slate-300">
+          <li>サーバーサイドアプリケーション開発（Java、Tableau、Python）</li>
+          <li>ビッグデータ基盤の開発と分析（Hadoop、Hive、NiFi）</li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-xs font-semibold tracking-widest text-accent uppercase mb-5">学歴</h2>
+      <ol class="space-y-3">
         <li class="grid grid-cols-[10rem_1fr] gap-x-4 text-sm">
           <div class="text-muted tabular-nums">2018年3月</div>
-          <div>東京工業大学 情報理工学院 知能情報コース 修了 — 工学修士</div>
+          <div>東京工業大学 情報理工学院 卒業</div>
         </li>
         <li class="grid grid-cols-[10rem_1fr] gap-x-4 text-sm">
           <div class="text-muted tabular-nums">2016年3月</div>
-          <div>九州大学 工学部 電気情報工学科 卒業 — 工学学士</div>
+          <div>九州大学 工学部 卒業</div>
         </li>
       </ol>
     </section>
 
-    <section class="mb-4">
-      <h2 class="text-xs font-semibold tracking-widest text-accent uppercase mb-5">受賞・資格</h2>
+    <section class="mb-12">
+      <h2 class="text-xs font-semibold tracking-widest text-accent uppercase mb-5">表彰</h2>
       <ol class="space-y-4">
+        <li class="grid grid-cols-[10rem_1fr] gap-x-4 text-sm">
+          <div class="text-muted tabular-nums">2018年</div>
+          <div>
+            <div>IEEE Computational Intelligence Society Japan Chapter Young Researcher Award</div>
+            <div class="text-muted text-xs mt-0.5">ショウジョウバエ視覚系の多重安定性解析</div>
+          </div>
+        </li>
+        <li class="grid grid-cols-[10rem_1fr] gap-x-4 text-sm">
+          <div class="text-muted tabular-nums">2017年</div>
+          <div>
+            <div>脳学際研究部門 第1回公開シンポジウム 最優秀ポスター発表</div>
+            <div class="text-muted text-xs mt-0.5">ショウジョウバエ視覚系の多重安定性解析</div>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-xs font-semibold tracking-widest text-accent uppercase mb-5">資格</h2>
+      <ol class="space-y-3">
         <li class="grid grid-cols-[10rem_1fr] gap-x-4 text-sm">
           <div class="text-muted tabular-nums">2023年7月</div>
           <div>Google Cloud Certified — Professional Cloud Architect</div>
@@ -114,23 +223,24 @@
           <div>Microsoft Certified Trainer（2020–2021）</div>
         </li>
         <li class="grid grid-cols-[10rem_1fr] gap-x-4 text-sm">
-          <div class="text-muted tabular-nums">2018年3月</div>
-          <div>IEEE Computational Intelligence Society Japan Chapter Young Researcher Award</div>
-        </li>
-        <li class="grid grid-cols-[10rem_1fr] gap-x-4 text-sm">
-          <div class="text-muted tabular-nums">2018年3月</div>
-          <div>IELTS Academic — Band Score 6</div>
-        </li>
-        <li class="grid grid-cols-[10rem_1fr] gap-x-4 text-sm">
-          <div class="text-muted tabular-nums">2017年10月</div>
-          <div>脳学際研究部門 第1回公開シンポジウム 最優秀ポスター発表</div>
-        </li>
-        <li class="grid grid-cols-[10rem_1fr] gap-x-4 text-sm">
-          <div class="text-muted tabular-nums">2017年2月</div>
-          <div>TOEIC L&R — Score 955</div>
+          <div class="text-muted tabular-nums">—</div>
+          <div>情報処理技術者（基本情報技術者）</div>
         </li>
       </ol>
     </section>
+
+    <section class="mb-4">
+      <h2 class="text-xs font-semibold tracking-widest text-accent uppercase mb-5">語学力</h2>
+      <dl class="grid grid-cols-[7rem_1fr] gap-y-3 gap-x-4 text-sm">
+        <dt class="text-muted">英語</dt>
+        <dd>基礎会話</dd>
+        <dt class="text-muted">TOEIC</dt>
+        <dd>955 点（2017年2月）</dd>
+        <dt class="text-muted">IELTS</dt>
+        <dd>Academic Band Score 6（2018年3月）</dd>
+      </dl>
+    </section>
+
   </main>
 </body>
 </html>
